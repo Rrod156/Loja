@@ -2,106 +2,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Segurança IP | Rodrigo Silva</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Inter', sans-serif;
-            background: #f5f7fa;
-            color: #333;
-        }
-        header {
-            background: #001f3f;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
-        }
-        header p {
-            margin: 0.5rem 0 0;
-            font-size: 1.1rem;
-        }
-        .selo {
-            background: #ffc107;
-            color: #000;
-            padding: 0.4rem 0.8rem;
-            display: inline-block;
-            margin-top: 1rem;
-            border-radius: 8px;
-            font-weight: bold;
-        }
-        .container {
-            padding: 2rem;
-            max-width: 600px;
-            margin: auto;
-        }
-        .whatsapp-btn {
-            display: block;
-            text-align: center;
-            background-color: #25D366;
-            color: white;
-            padding: 1rem;
-            text-decoration: none;
-            font-size: 1.2rem;
-            border-radius: 8px;
-            margin-top: 2rem;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-            margin-top: 2rem;
-        }
-        input, textarea {
-            margin-bottom: 1rem;
-            padding: 0.8rem;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            font-size: 1rem;
-        }
-        button {
-            background: #001f3f;
-            color: white;
-            border: none;
-            padding: 1rem;
-            font-size: 1rem;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-        .mascote {
-            text-align: center;
-            margin-top: 2rem;
-        }
-        .mascote img {
-            max-width: 150px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rodrigo Silva | Segurança IP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+    }
+    .selo {
+      margin-top: 1rem;
+      display: inline-block;
+      background: gold;
+      padding: 0.4rem 1rem;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    .whatsapp {
+      display: block;
+      background-color: #25d366;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      margin: 1.5rem 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #001f3f;
+      color: white;
+      padding: 1rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .mascote {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .mascote img {
+      max-width: 150px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 1rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Rodrigo Silva | Segurança IP</h1>
-        <p>Especialista em sistemas de monitoramento e automação</p>
-        <div class="selo">✔️ Especialista Verificado</div>
-    </header>
-    <div class="container">
-        <a class="whatsapp-btn" href="https://wa.me/5592984067765" target="_blank">
-            Fale comigo no WhatsApp
-        </a>
-        <form action="mailto:r06601032@gmail.com" method="POST" enctype="text/plain">
-            <input type="text" name="nome" placeholder="Seu nome" required>
-            <input type="email" name="email" placeholder="Seu e-mail" required>
-            <textarea name="mensagem" rows="5" placeholder="Descreva sua necessidade"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-        <div class="mascote">
-            <p>👮‍♂️ Olá, sou o Guardião IP! Fique ligado: segurança começa com prevenção. 🚨</p>
-            <img src="mascote.png" alt="Mascote da Segurança">
-        </div>
+  <header>
+    <h1>Rodrigo Silva</h1>
+    <p>Especialista em Sistemas de Segurança IP</p>
+    <div class="selo">✔️ Especialista Verificado</div>
+  </header>
+
+  <div class="container">
+    <a class="whatsapp" href="https://wa.me/5593984049351" target="_blank">Falar no WhatsApp</a>
+
+    <form action="mailto:r06601032@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" placeholder="Digite sua mensagem" rows="4"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="mascote">
+      <p>👮‍♂️ Olá! Eu sou o Guardião IP! Nunca subestime a importância da segurança preventiva. 🚨</p>
+      <img src="mascote.png" alt="Mascote da Segurança" />
     </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Rodrigo Silva - Segurança IP
+  </footer>
 </body>
 </html>
